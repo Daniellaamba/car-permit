@@ -1,180 +1,98 @@
-*{
-    box-sizing: border-box;
-    margin: 0px;
-    /* padding: 0rem; */
+
+body{
+    margin: 0;
 }
-.top-image-wrap{
+  
+/* navbar */
+.header-main{
     width: 100%;
-    height: 780px;
-    background-image: url('../images/Group 10.svg');
+    height: 938px;
+    background-image: url(../images/Group-10.svg);
     background-repeat: no-repeat;
     background-size: cover;
 }
-.top-image-text{
-    width: 60%;
-    margin: 0 auto ;
-    text-align: center;
-    color: white;
-    font-family: Poppins;
-    padding-top: 250px;
+.header-main h1{
+    padding-top: 20rem;
+    color: #fff;
+    font-size: 32px;
 }
-.top-image-text p{
-    font-family: Poppins;
-    font-size: 12px;
-    padding-top: 20px;
+.header-main p{
+    color: #fff;
+    font-size: 10px;
 }
 
-.blog-content-wrap{
-    width: 60%;
-    margin: 0 auto;
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: normal;
+
+
+p{
+    font-family: 'Poppins', sans-serif;
     font-size: 16px;
-    line-height: 28px;
-    color: #333333;
-}
-.blog-content-wrap p{
-    margin-bottom: 30px;
-
-}
-.bitcoin-post{
-    width: 50%;
-    float: left;
-}
-.bitcoin-post img{
-    width: 50%;
-}
-.bitcoin-post{
-    float: left;
-}
-.bits{
-    margin-top: 30px;
-}
-
-/* social media and promotions */
-/* left wing */
-.social-media-wrap{
-    width: 60%;
-    margin: 0 auto;
-    padding-bottom: 100px;
-    
-}
-.social-left{
-    width: 50%;
-    float: left;
-}
-.social-left a, .social-right a{
-    font-family: Poppins;
-font-style: normal;
-font-weight: normal;
-font-size: 12px;
-line-height: 17px;
-color: #989898;
-text-decoration: none;
-}
-.social-left p{
-    font-family: Poppins;
-font-style: normal;
-font-weight: bold;
-font-size: 16px;
-line-height: 25px;
-color: #2F2F2F;
-padding-bottom: 60px;
-}
-.social-left h2{
-    width: 60%;
-    /* text-align: right; */
-    font-family: Poppins;
+    font-weight: normal;
     font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-
-    padding-bottom: 20px;
-}
-
-
-/* right wing */
-.social-right{
-    width: 50%;
-    float: right;
-    text-align: right;
+    color: linear-gradient(179.56deg, #FD749B -13.56%, #281AC8 158.3%);
 
 }
-.social-right li{
-   display: inline-block;
-   line-height: 5px;
-   margin-left: 10px;
-   padding-bottom: 60px;
-
-}
-
-.social-right h2{
-    /* float: right; */
-    text-align: right!important;
-    /* display: inline; */
-}
-
-.fa-twitter{
-    background-color: #1590D8;
-    color: white;
-    padding: 10px;
-    border-radius: 50%;
-}
-.fa-facebook-f{
-    background-color: #272EAE;
-    color: white;
-    padding: 10px 15px 10px 15px;
-    border-radius:50%;
-}
-.fa-youtube{
-    background-color: red;
-    color: white;
-    padding: 10px;
-    border-radius: 50%;
-}
-
-.social-right h2{
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: bold;
+h5{
+    font-family: 'Poppins', sans-serif;
     font-size: 18px;
     line-height: 25px;
-    color:rgb(189, 50, 189);
-    width: 60%;
-    padding-bottom: 20px;
-    text-align: right!important;
-    margin-right: 0px;
+    font-weight: bold!important;
 }
+.exchange{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: bold;
+    background: -webkit-linear-gradient(179.56deg, #FD749B -13.56%, #281AC8 158.3%);
+     -webkit-background-clip: text;
+     background-clip: text;
+     -webkit-text-fill-color: transparent;
+ }
+ .ctrl-post{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 17px;
+    color: #989898;
+ }
+/* / */
+.main div{
+    padding: .75rem 2rem;
+}
+li{
+    list-style-type: none;
+    display: inline;
+}
+/* icons */
+.fa-facebook-f{
+    background: #272EAE;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    color:#fff;
+}
+.fa-twitter{
+    background: #1590D8;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    color:#fff;
 
-
-/* comment scetion */
-.comment-wrap{
-    width: 60%;
-    margin: 0 auto;
-    font-family: Poppins;
-    padding-top: 130px;
 }
-h3{
-    font-weight: 800;
+.fa-youtube{
+    background: #D0021B;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    color:#fff;
 }
-input{
-    padding:15px ;
-    margin-top: 30px;
-}
-textarea{
-    width: 100%;
-    height: 150px;
-    padding:25px ;
-    margin-top: 30px;
-}
-button{
-    background: linear-gradient(179.37deg, #FD749B -13.56%, #281AC8 158.3%);
-    border: 1px solid;
-    border-radius: 10px 10px 10px 10px;
-    padding:10px 20px 10px 20px;
-    font-size: 8px;
-    color: white;
+/* forms */
+.form-btn{
+   padding: 10px 40px;
+   background: linear-gradient(179.37deg, #FD749B -13.56%, #281AC8 158.3%);
+   border: 1px solid #FD749B ;
+   border-radius: 100px;
+   color:#fff;
 }
 
 /* footer */
@@ -257,4 +175,42 @@ a {
 .boxes .block1 div,
 .block2 div {
     padding: 1%;
+}
+
+/* footer */
+
+/* media query footer */
+@media screen and (max-width: 768px) {
+    .footer {
+        align-items: center;
+        width: 100%;
+    }
+    .bfooter {
+        position: relative;
+        left: 0.5rem;
+        bottom: 1.5rem;
+    }
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 2%;
+    }
+    .footer-container div {
+        margin: 1%;
+    }
+
+    
+    .coinbaselinks {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+    }
+    .boxes {
+        padding-left: -2rem;
+    }
+    .boxes .block1 div,
+.block2 div {
+    padding: 0;
+}
 }
